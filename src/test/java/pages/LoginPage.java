@@ -61,6 +61,7 @@ public class  LoginPage {
 	public void enterUsername(String username) {
 		
 		driver.findElement(txt_username).sendKeys(username);
+		System.out.println("Hello");
 	}
 	
 	public void enterPassword(String password) {
